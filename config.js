@@ -32,9 +32,9 @@ global.APIKeys = { // APIKey Here
   'https://api.zeks.me': 'apikeyaine',
   'https://pencarikode.xyz': 'pais',
   'https://melcanz.com': 'ZZBk7EBb',
+  'https://api.lolhuman.xyz': 'Deffbotz',
   'https://leyscoders-api.herokuapp.com': 'dappakntlll',
   'https://x-restapi.herokuapp.com': 'BETA'
-  'https://api.lolhuman.xyz': 'Deffbotz',
 }
 
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
