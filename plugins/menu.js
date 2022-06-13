@@ -5,33 +5,33 @@ let fetch = require('node-fetch')
 let moment = require('moment-timezone')
 let levelling = require('../lib/levelling')
 let tags = {
-  'rpgabsen': '❏ *R P G - A B S E N*',
-  'rpg': '❏ *R P G - M E N U*',
-  'game': '❏ *G A M E S - M E N U*',
-  'xp': '❏ *EXP & L I M I T*',
-  'sticker': '❏ *C O N V E R T E R*',
-  'main': '❏ *M A I N - M E N U*',
-  'kerang': '❏ *K E R A N G - M E N U*',
-  'quotes': '❏ *Q U O T E S*',
-  'admin': '❏ *A D M I N - M E N U*',
-  'group': '❏ *G R O U P - M E N U*',
-  'internet': '❏ *I N T E R N E T*',
-  'anonymous': '❏ *A N O N Y M O U S*',
-  'downloader': '❏ *D O W N L O A D E R*',
-  'berita': '❏ *B E R I T A*',
-  'tools': '❏ *T O O L S - M E N U*',
-  'fun': '❏ *F U N - M E N U*',
-  'database': '❏ *D A T A - B O T*', 
-  'vote': '❏ *V O T I N G*',
-  'absen': '❏ *A B S E N*',
-  'catatan': '❏ *C A T A T A N*',
-  'jadian': '❏ *P A C A R A N*',
-  'islami': '❏ *I S L A M I*',
-  'owner': '❏ *D E V E L O P E R*',
-  'advanced': '❏ *E V A L - C O D E*',
-  'info': '❏ *I N F O R M A S I*',
-  'audio': '❏ *A U D I O - M E N U*',
-  'maker': '❏ *M A K E R - M E N U*',
+  'rpgabsen': '❏ R P G - A B S E N',
+  'rpg': '❏ R P G - M E N U',
+  'game': '❏ G A M E S - M E N U',
+  'xp': '❏ EXP & L I M I T',
+  'sticker': '❏ C O N V E R T E R',
+  'main': '❏ M A I N - M E N U',
+  'kerang': '❏ K E R A N G - M E N U',
+  'quotes': '❏ Q U O T E S',
+  'admin': '❏ A D M I N - M E N U',
+  'group': '❏ G R O U P - M E N U',
+  'internet': '❏ I N T E R N E T',
+  'anonymous': '❏ A N O N Y M O U S',
+  'downloader': '❏ D O W N L O A D E R',
+  'berita': '❏ B E R I T A',
+  'tools': '❏ T O O L S - M E N U',
+  'fun': '❏ F U N - M E N U',
+  'database': '❏ D A T A - B O T', 
+  'vote': '❏ V O T I N G',
+  'absen': '❏ A B S E N',
+  'catatan': '❏ C A T A T A N',
+  'jadian': '❏ P A C A R A N',
+  'islami': '❏ I S L A M I',
+  'owner': '❏ D E V E L O P E R',
+  'advanced': '❏ E V A L - C O D E',
+  'info': '❏ I N F O R M A S I',
+  'audio': '❏ A U D I O - M E N U',
+  'maker': '❏ M A K E R - M E N U',
 }
 const defaultMenu = {
   before: `
@@ -159,8 +159,8 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    conn.sendHydrated(m.chat, text.trim(), 'Spam bot = baned!!!', null, 'https://youtu.be/RMixpZRoDOk', 'Script bot', '', '', [
-      ['Pemilik bot', '/owner'],
+    conn.sendHydrated(m.chat, text.trim(), 'Gausah spam yatim', null, 'https://youtu.be/RMixpZRoDOk', 'Script bot', '', '', [
+      ['Rules bot', '/donasi'],
       ['Sewa bot', '/sewa'],
     ], m)
     /*let url = `https://telegra.ph/file/00492e657e2d1eeb8b569.jpg`.trim()
