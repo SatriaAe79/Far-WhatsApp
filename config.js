@@ -4,7 +4,7 @@ let chalk = require('chalk')
 global.owner = [
   ['18312576749'],
   ['6283811034750'],
-  ['18312576749', 'FahrizalOfc', true]
+  ['18312576749', 'Owner', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -22,6 +22,7 @@ global.APIs = { // API Prefix
   pencarikode: 'https://pencarikode.xyz',
   LeysCoder: 'https://leyscoders-api.herokuapp.com',
   restapi: 'https://x-restapi.herokuapp.com'
+  lolhuman: 'https://api.lolhuman.xyz',
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
@@ -33,6 +34,7 @@ global.APIKeys = { // APIKey Here
   'https://melcanz.com': 'ZZBk7EBb',
   'https://leyscoders-api.herokuapp.com': 'dappakntlll',
   'https://x-restapi.herokuapp.com': 'BETA'
+  'https://api.lolhuman.xyz': 'Deffbotz',
 }
 
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
