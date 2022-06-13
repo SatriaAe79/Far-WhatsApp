@@ -1,5 +1,12 @@
 let handler = async m => m.reply(`
 
+*RULES KIMMY BOT*
+-JANGAN SPAM BOT
+-JANGAN GUNAKAN FUTUR KICK SECARA BERLEBIHAN
+-JANGAN TELPON/VC BOT
+-JANGAN CHAT BOT UNTUK MINTA SV
+*MELANGGAR?* ( *BANED PERMANEN* )
+
 SCRIPT NYA : https://youtu.be/RMixpZRoDOk
 Jangan lupa like nya
 Donasi
