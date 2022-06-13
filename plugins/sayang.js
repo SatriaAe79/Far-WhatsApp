@@ -7,7 +7,7 @@ conn.sendFile(m.chat, helloaine, '', '', m, true)
 // await conn.sendMessage(m.chat, { audio: { url: helloaine }, mimetype: 'audio/mp4'}, m)
 }
 
-handler.customPrefix = /^(bot|hallo|hy|hi hello|halo sayang|p aine)$/i
+handler.customPrefix = /^(bot|kimy|hy|hi|hello|halo|sayang|p|kimmy)$/i
 handler.command = new RegExp
 
 handler.limit = true
