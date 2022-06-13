@@ -2,7 +2,7 @@ let handler = async m => m.reply(`
 
 *RULES KIMMY BOT*
 -JANGAN SPAM BOT
--JANGAN GUNAKAN FUTUR KICK SECARA BERLEBIHAN
+-JANGAN GUNAKAN FITUR KICK SECARA BERLEBIHAN
 -JANGAN TELPON/VC BOT
 -JANGAN CHAT BOT UNTUK MINTA SV
 *MELANGGAR?* ( *BANED PERMANEN* )
@@ -10,7 +10,7 @@ let handler = async m => m.reply(`
 SCRIPT NYA : https://youtu.be/RMixpZRoDOk
 Jangan lupa like nya
 Donasi
- • 083168004413 dana/gopay/Ovi
+ • 083168004413 dana/gopay/Ovo
  • 083811034750 Pulsa [Axis]
  • 0896-5436-0447 [pulsa]
 
