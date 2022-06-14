@@ -21,12 +21,12 @@ let handler = async (m, { conn, args, isPrems, isOwner }) => {
   if (!link) throw lastError
   // let { dl_link, thumb, title, filesize, filesizeF } = await yta(args[0], servers.includes(server) ? server : servers[0])
   let isLimit = (isPrems || isOwner ? 99 : limit) * 1024 < audio.fileSize
-  if (!isY) conn.sendMedia(m.chat, thumbnail, 'thumbnail.jpg', `
+  if (!isY) conn.sendFile(m.chat, thumbnail, 'thumbnail.jpg', `
 📌*Title:* ${title}
 🗎 *Filesize:* ${audio.fileSizeH}
 *${isLimit ? 'Pakai ' : ''}Link:* ${link}
 `.trim(), m)
-  if (!isLimit) conn.sendMedia(m.chat, link, title + '.mp3', `
+  if (!isLimit) conn.sendFile(m.chat, link, title + '.mp3', `
 📌 *Title:* ${title}
 🗎 *Filesize:* ${audio.fileSizeH}
 `.trim(), m, null, {
