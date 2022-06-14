@@ -35,22 +35,17 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-Hai, %ucapan %name!👋 saya adaalah
-WhatsApp bot multi device yang di buat untuk mempermudah
+Hai, %ucapan %name!👋 saya adaalah WhatsApp bot multi device yang di buat untuk mempermudah
 pekerjaan anda dalam menjadi beban
   
-╭───⧉ *INFORMATION*
-├❑ %wib WIB
-├❑ %wita WITA
-├❑ %wit WIT
 ├❑ *Hari:* %week
 ├❑ *Tanggal:* %date
 ├❑ *Uptime:* %uptime (%muptime)
 ├❑ *Limit:* %limit
 ├❑ *Level:* %level
 ├❑ *XP:* %exp
-╰────────┈
-%readmore`.trimStart(),
+
+`.trimStart(),
   header: ' *%category*',
   body: ' • %cmd %islimit %isPremium',
   footer: '\n',
