@@ -1,5 +1,5 @@
 {
-    "name": "aine-Bot",
+    "name": "Far-Bot",
     "version": "07.06.98",
     "description": "Simple Whatsapp bot by Fardev",
     "depecrated": false,
@@ -27,20 +27,20 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/Aiinne",
+    "homepage": "https://github.com/Fardevv2",
     "author": {
-        "name": "Muhammad Ridwan Reynaldy"
+        "name": "Fardev78"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Aiinne"
+        "url": "git+https://github.com/Fardevv2"
     },
     "bugs": {
-        "url": "https://github.com/Aiinne"
+        "url": "https://github.com/Satria356"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
-        "@adiwajshing/baileys": "^4.1.0",
+        "@adiwajshing/baileys": "^4.0.1",
         "@adiwajshing/keyed-db": "^0.2.4",
         "@bochilteam/scraper": "0.0.81",
         "acrcloud": "^1.4.0",
