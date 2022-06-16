@@ -15,7 +15,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 *Album:* ${json.album}
 *Diterbitkan:* ${json.publish}
 *Link:* ${json.mp3}
-*Made by* ❤️`.trim()
+*Kimmy bot md`.trim()
         conn.sendFile(m.chat, json.img, 'error.jpg', pesan, m, false, { thumbnail: Buffer.alloc(0) })
         conn.sendFile(m.chat, json.mp3, 'error.mp3', '', m, false, { mimetype: 'audio/mp4' })
     })

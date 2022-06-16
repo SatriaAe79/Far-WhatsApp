@@ -1,25 +1,53 @@
-const hx = require('hxz-api')
-let handler = async (m, { conn, text, usedPrefix, command }) => {
-//let txt = args.join` `
-if(!text) return reply('Text nya kak?')
-    /*        let play = await hx.playstore(`${txt}`)
-            let store = '❉─────────────────────❉\n'
-            for (let i of play){
-            store += `\n*「 *PLAY STORE* 」*\n
-- *Nama* : ${i.name}
-- *Link* : ${i.link}\n
-- *Dev* : ${i.developer}
-- *Link Dev* : ${i.link_dev}\n❉─────────────────────❉`
-            }*/
-  var a = await hx.playstore(text)
-var b = a.map((v, i) => `*${i + 1}. 「 PLAY STORE 」*\n📜 Title: _${v.name}_\n🧑‍💻 Developer: _${v.developer}_\n*🔗 Link:* ${v.link}`).join('\n❉─────────────────────❉\n')
-  m.reply(b)
-      //      conn.reply(store)
-            }
-handler.help = ['playstore']
+/*let fetch = require('node-fetch')
+
+let handler = async(m, { conn, text }) => {
+
+  if (!text) return conn.reply(m.chat, 'Harap Masukan nama aplikasi', m)
+
+  await m.reply('Sedang mencari mohon menunggu...')
+    let res = await fetch(`https://caliphapi.com/api/playstore/search?apikey=ELYASXD&q=${text}`)
+    let json = await res.json()
+    if (res.status !== 200) throw await res.text()
+    if (!json.status) throw json
+    let thumb = json.result[0].icon
+    let hasil = `*❏ P L A Y S T O R E*
+
+❏ *NAMA*: ${json.result[0].title}
+❏ *APP ID*: ${json.result[0].appId}
+❏ *DEVELOPER*: ${json.result[0].developer}
+❏ *STATUS*: ${json.result[0].priceText}
+❏ *HARGA*: ${json.result[0].price}
+❏ *RATING*: ${json.result[0].scoreText}
+❏ *DESKRIPSI*: ${json.result[0].summary}
+❏ *LINK*:  
+${json.result[0].url}
+`
+
+    conn.sendButtonImg(m.chat, thumb, hasil, wm, 'Pencet', 'huuu', m)
+}
+handler.help = ['playstore'].map(v => v + ' <nama apk>')
 handler.tags = ['internet']
 handler.command = /^(playstore)$/i
 handler.limit = true
-handler.group = false
 
-module.exports = handler
+module.exports = handler*/
+
+let hxz = require('hxz-api')
+let fetch = require('node-fetch')
+let handler = async (m, { conn, command, text }) => {
+    if (!text) throw 'Masukkan Link\n\nContoh: .playstore coc'
+  let res = await hxz.playstore(text)
+conn.sendBut(m.chat, `*PLAY STORE*
+
+NAMA: ${res[0].name}
+DEVELOPER: ${res[0].developer}
+LINK: ${res[0].link}`, wm, 'ok', 'huuu', m)
+
+}
+handler.help = ['playstore' <apk>]
+handler.tags = ['internet']
+handler.command = /^playstore$/i
+
+
+module.exports = handlerhandler
+
