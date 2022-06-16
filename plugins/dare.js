@@ -3,6 +3,7 @@ Made by Aine
 */
 
 let handler = async (m, { conn }) => {
+	conn.sendButtonLoc(m.chat, await (await fetch(flu + 'Truth')).buffer(), `${pickRandom(global.truth)}`, wm, 'Ancrit', `beneran`, m)
 	let img = 'https://i.ibb.co/305yt26/bf84f20635dedd5dde31e7e5b6983ae9.jpg'
 	let dares = [
 "Foto kuburan tengah malam berani ga?",
