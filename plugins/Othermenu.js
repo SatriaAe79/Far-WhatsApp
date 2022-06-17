@@ -3,129 +3,129 @@ let handler = async m => m.reply(`
 ❏ *OTHER MENU KIMMY BOT MD*
 
  *❏ R P G - A B S E N*
-≻ %pdaily
-≻ %pgethadiah
-≻ %phadiah
-≻ %pmonthly
-≻ %pweekly
+≻ .daily
+≻ .gethadiah
+≻ .hadiah
+≻ .monthly
+≻ .weekly
 
 
- *❏ R P G - M E N U*
-≻ %padventure
-≻ %ppull <jumlah>
-≻ %ppullall
-≻ %patm <jumlah>
-≻ %patmall
-≻ %pberkebon
-≻ %pfeed [pet type]
-≻ %popen <crate>
-≻ %pheal
-≻ %pinv
-≻ %pkolam
-≻ %pleaderboard [jumlah user]
-≻ %pmembunuh *@tag*
-≻ %pmeracik [type]
-≻ %pmerampok *@tag*
-≻ %pmulung
-≻ %pnambang
-≻ %pnebang
-≻ %pramuan [pet type]
-≻ %pshop <sell|buy> <args>
-≻ %pshopfish <sell|buy> <args>
-≻ %ptransfer
+  *❏ R P G - M E N U*
+≻ .adventure
+≻ .pull <jumlah>
+≻ .pullall
+≻ .atm <jumlah>
+≻ .atmall
+≻ .berkebon
+≻ .feed [pet type]
+≻ .open <crate>
+≻ .heal
+≻ .inv
+≻ .kolam
+≻ .leaderboard [jumlah user]
+≻ .membunuh *@tag*
+≻ .meracik [type]
+≻ .merampok *@tag*
+≻ .mulung
+≻ .nambang
+≻ .nebang
+≻ .ramuan [pet type]
+≻ .shop <sell|buy> <args>
+≻ .shopfish <sell|buy> <args>
+≻ .transfer
 
 
  *❏ G A M E S - M E N U*
-≻ %pasahotak
-≻ %pcaklontong
-≻ %pdelttt
-≻ %pdungeon [nama room]
-≻ %pfamily100
-≻ %pfighting
-≻ %phunter
-≻ %ppancing <type>
-≻ %piqtest
-≻ %pjudi <jumlah>
-≻ %plengkapikalimat
-≻ %pmath <mode>
-≻ %psiapakahaku
-≻ %psuit
-≻ %psuitpvp @tag
-≻ %psusunkata
-≻ %ptebakanime
-≻ %ptebakbendera
-≻ %ptebakgambar
-≻ %ptebakgame
-≻ %ptebakkata
-≻ %ptebakkimia
-≻ %ptebaklagu
-≻ %ptebaklirik
-≻ %ptekateki
-≻ %ptictactoe [custom room name]
-≻ %pttt [custom room name]
+≻ .asahotak
+≻ .caklontong
+≻ .delttt
+≻ .dungeon [nama room]
+≻ .family100
+≻ .fighting
+≻ .hunter
+≻ .pancing <type>
+≻ .iqtest
+≻ .judi <jumlah>
+≻ .lengkapikalimat
+≻ .math <mode>
+≻ .siapakahaku
+≻ .suit
+≻ .suitpvp @tag
+≻ .susunkata
+≻ .tebakanime
+≻ .tebakbendera
+≻ .tebakgambar
+≻ .tebakgame
+≻ .tebakkata
+≻ .tebakkimia
+≻ .tebaklagu
+≻ .tebaklirik
+≻ .tekateki
+≻ .tictactoe [custom room name]
+≻ .ttt [custom room name]
 
 
  *❏ EXP & L I M I T*
-≻ %pbuy <jumlah limit>
-≻ %pbuyall
-≻ %pcupon [@user]
-≻ %pdompet [@user]
-≻ %pexp [@user]
-≻ %plevelup
-≻ %plimit [@user]
+≻ .buy <jumlah limit>
+≻ .buyall
+≻ .cupon [@user]
+≻ .dompet [@user]
+≻ .exp [@user]
+≻ .levelup
+≻ .limit [@user]
 
 
  *❏ F U N - M E N U*
-≻ %palay
-≻ %partinama [name]
-≻ %palay
-≻ %pdare
-≻ %pdarkjokes
-≻ %phalah <teks>
-≻ %philih <teks>
-≻ %phuluh <teks>
-≻ %pheleh <teks>
-≻ %pholoh <teks>
-≻ %pjadian
-≻ %pnamaninja <teks>
-≻ %prate
-≻ %psimi <teks>
-≻ %pmy <teks>
-≻ %pkimy <teks>
-≻ %ptaugasih
-≻ %ptruth
+≻ .alay
+≻ .artinama [name]
+≻ .alay
+≻ .dare
+≻ .darkjokes
+≻ .halah <teks>
+≻ .hilih <teks>
+≻ .huluh <teks>
+≻ .heleh <teks>
+≻ .holoh <teks>
+≻ .jadian
+≻ .namaninja <teks>
+≻ .rate
+≻ .simi <teks>
+≻ .my <teks>
+≻ .kimy <teks>
+≻ .taugasih
+≻ .truth
 
  *❏ K E R A N G - M E N U*
-≻ %papakah <teks>?
-≻ %pkapan <text>?
-≻ %pkapankah <text>?
-≻ %psiapa <teks>
-≻ %psiapakah <teks>
+≻ .apakah <teks>?
+≻ .kapan <text>?
+≻ .kapankah <text>?
+≻ .siapa <teks>
+≻ .siapakah <teks>
 
  *❏ P A C A R A N*
-≻ %pcekpacar
-≻ %pikhlasin
-≻ %pputus
-≻ %ptembak *@tag*
-≻ %pterima *@tag*
-≻ %ptolak *@tag*
+≻ .cekpacar
+≻ .ikhlasin
+≻ .putus
+≻ .tembak *@tag*
+≻ .terima *@tag*
+≻ .tolak *@tag*
 
  *❏ M A I N - M E N U*
-≻ %pafk [alasan]
-≻ %pceksn
-≻ %pmenu
-≻ %pref
-≻ %pdaftar <nama>%p<umur>
-≻ %psewa
-≻ %punreg <SERIAL NUMBER>
+≻ .afk [alasan]
+≻ .ceksn
+≻ .menu
+≻ .ref
+≻ .daftar <nama>.<umur>
+≻ .sewa
+≻ .unreg <SERIAL NUMBER>
 
 
  *❏ Q U O T E S*
-≻ %pquotesanime
-≻ %pbucin
-≻ %pkata <opsi>
-≻ %ppantun
-≻ %pquotes
+≻ .quotesanime
+≻ .bucin
+≻ .kata <opsi>
+≻ .pantun
+≻ .quotes
 
 _*Simple WhatsApp bot By Fardev*_
 
