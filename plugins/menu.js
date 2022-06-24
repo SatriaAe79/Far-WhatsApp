@@ -35,15 +35,13 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-Hai, %ucapan %name!👋 saya adaalah WhatsApp bot multi device yang di buat untuk mempermudah
-pekerjaan anda dalam menjadi beban
-  
-├❑ *Hari:* %week
-├❑ *Tanggal:* %date
-├❑ *Uptime:* %uptime (%muptime)
-├❑ *Limit:* %limit
-├❑ *Level:* %level
-├❑ *XP:* %exp
+Hai, %ucapan %name!👋
+❑ *Hari:* %week
+❑ *Tanggal:* %date
+❑ *Uptime:* %uptime (%muptime)
+❑ *Limit:* %limit
+❑ *Level:* %level
+❑ *XP:* %exp
 
 `.trimStart(),
   header: ' *%category*',
@@ -154,8 +152,8 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    conn.sendHydrated(m.chat, text.trim(), '_Simple WhatsApp bot By Fdev_', null, 'https://wa.me/18312576749', 'Contact Owner', '', '', [
-      ['Other menu', '/other'],
+    conn.sendHydrated(m.chat, text.trim(), 'Sewa bot 5k permanen', null, 'https://wa.me/18312576749', 'Contact Owner', '', '', [
+      ['Donasi', '/donasi'],
       ['Sewa bot', '/sewa'],
     ], m)
     /*let url = `https://telegra.ph/file/00492e657e2d1eeb8b569.jpg`.trim()
