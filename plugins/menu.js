@@ -153,7 +153,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     conn.sendHydrated(m.chat, text.trim(), 'Sewa bot 5k permanen', null, 'https://wa.me/18312576749', 'Contact Owner', '', '', [
-      ['Donasi', '/donasi'],
+      ['Rules bot', '/donasi'],
       ['Sewa bot', '/sewa'],
     ], m)
     /*let url = `https://telegra.ph/file/00492e657e2d1eeb8b569.jpg`.trim()
