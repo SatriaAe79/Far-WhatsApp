@@ -4,7 +4,6 @@ let anu =`
 
 ${pickRandom(global.pantun)}
 `
-conn.sendBut(m.chat, anu, wm3, 'Pantun', '.pantun', m) 
 }
 handler.help = ['pantun']
 handler.tags = ['quotes']
