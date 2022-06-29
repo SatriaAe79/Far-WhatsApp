@@ -1,9 +1,9 @@
-const free = 10000000
-const prem = 20000
-const limitfree = 100
-const limitprem = 200
-const moneyfree = 10000000
-const moneyprem = 2000000
+const free = 1000
+const prem = 2000
+const limitfree = 10
+const limitprem = 20
+const moneyfree = 1000
+const moneyprem = 2000
 
 let handler = async (m, { isPrems }) => {
     let time = global.db.data.users[m.sender].lastweekly + 604800000
